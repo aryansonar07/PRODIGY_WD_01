@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Skills</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav>
+                <a href="#html">HTML</a>
+                <a href="#css">CSS</a>
+                <a href="#javascript">JavaScript</a>
+        </nav><br>
+        <div id="html" class="container">
+            <h2>HTML</h2>
+            <p>I am proficient in creating semantic and accessible HTML structures.</p>
+        </div><br>
+        <div id="css" class="container">
+            <h2>CSS</h2>
+            <p>I can create responsive and visually appealing layouts using CSS.</p>
+        </div><br>
+        <div id="javascript" class="container">
+            <h2>JavaScript</h2>
+            <p>I have experience with modern JavaScript features and can build interactive web applications.</p>
+        </div><br>
+        <div class="container">
+            <h2>Python</h2>
+            <p>I have experience with Python programming and can build robust backend applications.</p>
+        </div><br>
+        <div class="container">
+            <h2>Java</h2>
+            <p>I have experience with Java programming and can build scalable applications.</p>
+        </div>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.documentElement.scrollTop > 20) {
+                    document.querySelector("nav").style.backgroundColor = "blue";
+                } else {
+                    document.querySelector("nav").style.backgroundColor = "";
+                }
+            }   
+        </script>
+    </body>
+</html>
